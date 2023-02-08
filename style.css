@@ -46,9 +46,10 @@ body {margin:0;}
   }
 
   .ban {
-    background-image: url(background-header.png);
+    background-image: url(background.ed731b8a1a.webp);
     position: absolute;
-    height: 30%;
+    height: 45%;
     width: 100%;
+    background-size: cover;
   }
   
