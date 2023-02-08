@@ -1,0 +1,18 @@
+.bar {
+    padding-top: 0.5px;
+font-size: small;
+border-color: rgba(10,10,10,255); /* half transparent #0c7bcb color */
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+border-style: solid;
+background-color: #0a0a0a;
+background-image: url("download.webp");
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 30px; /* adjust as needed to make room for the icon */
+border-bottom-width: 0.5px;
+border-top-width: 0.5px;
+background-size: 20px 20px; /* adjust the size as needed */
+
+}
+body {margin:0;}
