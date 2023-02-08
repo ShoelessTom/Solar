@@ -1,6 +1,6 @@
 .bar {
     padding-top: 0.5px;
-font-size: small;
+font-size: larger;
 border-color: rgba(10,10,10,255); /* half transparent #0c7bcb color */
 font-family: Arial, Helvetica, sans-serif;
 color: aliceblue;
@@ -16,3 +16,39 @@ background-size: 20px 20px; /* adjust the size as needed */
 
 }
 body {margin:0;}
+
+
+#go-btn {
+    background-color: #239649;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 0 50px #239649;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 25%;
+    font-size: larger;
+    font-family: "pants";
+    top: 30%;
+  }
+  @font-face {
+    font-family: pants;
+    src: url(pants.otf);
+  }
+  #go-btn:hover {
+    transform: scale(1.1) translateX(-50%);
+    box-shadow: 0 0 20px #239649;
+  }
+
+  .ban {
+    background-image: url(background-header.png);
+    position: absolute;
+    height: 30%;
+    width: 100%;
+  }
+  
